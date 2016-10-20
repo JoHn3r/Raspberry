@@ -1,0 +1,1 @@
+type  public_id | plink.exe username@hostname "umask 077; test -d .ssh || mkdir .ssh ; cat >> .ssh/authorized_keys"
