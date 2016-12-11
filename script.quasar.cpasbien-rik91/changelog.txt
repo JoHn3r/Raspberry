@@ -1,0 +1,7 @@
+v1.3.6 cleaning query for better results
+v1.3.5 adding selector between episodes or seasons
+v1.3.2 Synchro Common mancunanciol
+v1.3.1 Synchro mancunanciol
+v1.3.0 search complete season support
+v1.2.0 icon support
+v1.1.0 Quasar ready
