@@ -1,21 +1,6 @@
-pipeline {
-    agent any
-
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-            }
-        }
-    }
+sleep 15
+node {
+  checkout scm
+  isUnix() ? sh('ls -l') : bat('dir')
 }
+sleep 15
