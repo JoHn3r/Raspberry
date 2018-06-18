@@ -1,5 +1,21 @@
 pipeline {
-    stage 'checkout'
-    sh 'echo "write your deploy code here"; sleep 5;'
+    agent any
 
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
+    }
 }
