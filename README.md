@@ -8,6 +8,9 @@
  - ssh-copy-id
  - Disable the password
  - /etc/ssh/sshd_config
+ 
+ @reboot script
+ amixer sset Speaker,0 100%,100% unmute
 
 >check network :
 
